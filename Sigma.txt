@@ -1,0 +1,8 @@
+if game.PlaceId == 5951002734 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nxvyr/Pb3/refs/heads/main/Keyypb3.lua"))()
+elseif game.PlaceId == 7610112996 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nxvyr/Pb3Key2/refs/heads/main/Prison"))()
+else
+    game.Players.LocalPlayer:Kick("Script not supported in this game")
+    return
+end
